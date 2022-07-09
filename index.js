@@ -11,7 +11,7 @@ const sleep = (milliseconds) => {
 
 //privado
 const DISCORD_BOT_KEY = process.env.DISCORD_BOT_KEY;
-const DISCORD_WEBHOOK_URL = "https://discordapp.com/api/webhooks/784087492130373643/fm56vPehNvlovFq4u2HIiXHwoXRRZxFL8w7HQyk0V-ZaI2jJFUCQOz_kGLqomXofkCPT"
+const DISCORD_WEBHOOK_URL = process.env.DISCORD_WEBHOOK_URL
 
 
 const Webhook_Stockx = (title, sku, linkImg, linkStockx, linkKlekt, linkKlekt_sell) => {
